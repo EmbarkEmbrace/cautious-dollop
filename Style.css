@@ -15,12 +15,18 @@ header {
     text-decoration: none;
     font-size: 200%;
     letter-spacing: .7em;
-    color: black;
+    color: rgb(44, 44, 44);
 }
 
 .navlinks {
     align-self: stretch;
+    text-decoration: none;
     list-style-type: none;
+    color: #5c5c5c
+}
+
+.navlinks li a {
+    color: #5c5c5c ;
 }
 
 .navlinks li a {
@@ -31,19 +37,21 @@ header {
 
 .First {
     text-align: right;
+    color: #444444;
 }
 
 .boxone h1{
     font-weight: 100;
     line-height: 1.2;
+    color: #000000;
 }
-
 
 hr {
     align-items: flex-end;
     margin-left: 70%;
-    margin-top: 2%;
-    margin-bottom:2%
+    margin-top: 1%;
+    margin-bottom:1%;
+    opacity: 20%
 }
 
 @media screen and (max-width: 769px) {
